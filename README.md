@@ -31,7 +31,9 @@ Plots included in the asset are selected from vineyard with two grapes variety:
 * Tempranillo: 7 plots (P101, P102, P106, P111, P117, P119, P93), total area: 43.576 m2 
 * Garnacha: 4 plots (P110, P109, P223, P81), total area: 84.413 m2 
 The situation of these plots is:
+
 ![image](https://user-images.githubusercontent.com/130968808/232432128-80e6dc47-2acb-40ff-a221-3f72a94f953e.png)
+
 All coordinates of the region of interest (ROIs) are located in tile 30TWM, as shown in the figure:
 ![image](https://user-images.githubusercontent.com/130968808/232432181-af800256-99ba-4b44-950f-dbc3cd674efa.png)
 The script has been generated with the selection of tiles in SAFE format for 4 years (maximum available) from 2018-04-19 to 2022-04-18, and a cloud percentage limited to 15% and manually checked and chosen. 
