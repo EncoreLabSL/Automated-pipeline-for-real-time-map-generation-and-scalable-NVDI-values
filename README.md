@@ -41,8 +41,10 @@ All coordinates of the region of interest (ROIs) are located in tile 30TWM, as s
 The script has been generated with the selection of tiles in SAFE format for 4 years (maximum available) from 2018-04-19 to 2022-04-18, and a cloud percentage limited to 15% and manually checked and chosen. 
 
 ### 2.4. Website appearance
-Once the browser is loaded (after running main.py), the website will look like this:
-![image](https://user-images.githubusercontent.com/130968808/232432304-97bd2572-0161-4273-85ad-ba81fb81faf8.png)
+Once the browser is loaded (after running main.py), the website will look like this:  
+
+![image](https://user-images.githubusercontent.com/130968808/232432304-97bd2572-0161-4273-85ad-ba81fb81faf8.png)  
+
 On the left side, there are the following items to interact:
 * Plot section: it allows to load a geojson file, available in /plots/geojson/
 * Date: a selector to choose the date for the NVDI calculation. 
