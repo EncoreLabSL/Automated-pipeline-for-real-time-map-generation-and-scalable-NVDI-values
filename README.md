@@ -19,8 +19,10 @@ Normalized Difference Vegetation Index (NDVI) uses the NIR (Band 8) and red (Ban
 NVDI =(NIR-Red)/(NIR+Red)
 ```
 NDVI always ranges from -1 to +1. Healthy vegetation (chlorophyll) reflects more near-infrared (NIR) and green light compared to other wavelengths. But it absorbs more red and blue light. Negative values correspond to water or buildings, values close to +1, means dense green leaves and close to zero, there aren’t green leaves, and it could even be an urbanized area. 
-The process followed to calculate NDVI for every plot is:
-![image](https://user-images.githubusercontent.com/130968808/232431890-cfbc7cfb-8212-4a57-9ffa-94818504e7d7.png)
+The process followed to calculate NDVI for every plot is:  
+
+![image](https://user-images.githubusercontent.com/130968808/232431890-cfbc7cfb-8212-4a57-9ffa-94818504e7d7.png)  
+
 An interpolation stage is needed to complete all dates as merging processes need all dates with a numerical value. The dates conversion was made using following fixed dates: 
 * Day 2018-04-19 is day_index = 0 
 * Day 2022-04-18 is day_index = daysbetween(2022/04/18 - 2018/04/19) = 1460 
